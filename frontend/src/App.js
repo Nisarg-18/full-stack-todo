@@ -1,9 +1,9 @@
-import "./App.css";
+import MainComponent from "./components/MainComp";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Frontend</h1>
+    <div>
+      <MainComponent />
     </div>
   );
 }
